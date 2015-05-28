@@ -1,0 +1,10 @@
+<script type="text/javascript">
+		var site_url = "<?php echo site_url() ?>";
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="<?php echo site_url()?>public/js/moment.min.js"></script>
+	<script type="text/javascript" src="<?php echo site_url()?>public/js/daterangepicker.js"></script>
+	<script type="text/javascript" src="<?php echo site_url()?>public/js/jquery.growl.js"></script>
+	<script src="<?php echo site_url()?>public/js/application.js"></script>

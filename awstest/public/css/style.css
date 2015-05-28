@@ -1,0 +1,52 @@
+/* Helvetica Neue Light */
+@font-face {
+    font-family: 'HelveticaNeueLTArabic45Light';
+    src: url('../fonts/helveticaneueltarabic-light.eot');
+    src: url('../fonts/helveticaneueltarabic-light.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneueltarabic-light.woff2') format('woff2'),
+         url('../fonts/helveticaneueltarabic-light.woff') format('woff'),
+         url('../fonts/helveticaneueltarabic-light.ttf') format('truetype'),
+         url('../fonts/helveticaneueltarabic-light.svg#HelveticaNeueLTArabic45Light') format('svg');
+}
+
+/* Helvetica Neue Bold */
+@font-face {
+    font-family: 'HelveticaNeueLTArabic75Bold';
+    src: url('../fonts/helveticaneueltarabic-bold.eot');
+    src: url('../fonts/helveticaneueltarabic-bold.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneueltarabic-bold.woff2') format('woff2'),
+         url('../fonts/helveticaneueltarabic-bold.woff') format('woff'),
+         url('../fonts/helveticaneueltarabic-bold.ttf') format('truetype'),
+         url('../fonts/helveticaneueltarabic-bold.svg#HelveticaNeueLTArabic75Bold') format('svg');
+}
+
+body {padding-top: 50px;font-family: 'HelveticaNeueLTArabic45Light';}
+.nav{font-family: 'HelveticaNeueLTArabic75Bold'; text-transform:uppercase;}
+.banner h2{ font-size:22px;}
+.navbar-fixed-top .nav {padding: 0;}
+.navbar-fixed-top .navbar-brand {padding: 0 15px;}
+footer {padding: 10px 0;margin-top:10px;background-color: #181818;position:fixed; bottom:0px; width:100%;}
+footer p{ margin:0px;}
+.navbar-inverse{background-color: #181818;}
+.btn, .navbar-inverse .navbar-nav > li > a{-webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: color, background-color;
+transition-property: color, background-color;}
+.navbar-inverse .navbar-nav > li > a.selected{background:#2f2f2f;}
+.navbar-inverse .navbar-nav > li > a:hover{background:#3b3b3b;}
+.banner{ background:#000; padding:10px 0;}
+.banner h1{ text-transform:uppercase; color:#9d9d9d;}
+.detailsbox{min-height:44px;}
+.imgholder{ margin-bottom:5px;}
+.imgholder img{width:100%;}
+.contentbox{ margin-bottom:60px;}
+.contentbox h2{ margin-top:0px;}
+.form-horizontal{ font-family:Arial, sans-serif;}
+.registorbox{ max-width:600px; margin: 0 auto; background:#e8e8e8; margin-top:20px; padding:20px;}
+@media(min-width:768px) {
+body {padding-top: 50px;}
+.navbar-fixed-top .navbar-brand {padding: 10px 0;}
+}
+
+@media(max-width:767px) {
+.navbar-fixed-top .nav{width: 100%; margin: 0px;}
+.navbar-fixed-top .navbar-brand{padding:10px 5px;}
+}
